@@ -1,0 +1,89 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url("../polices/Montserrat-Regular.ttf") format("truetype");
+}
+body{
+    background-color: rgb(236, 236, 236);
+    font-family: "Montserrat";
+}
+h2{
+    font-size: 35px;
+    padding-left: 5%;
+    padding-top: 5%;
+    color: #353535;
+}
+h3{
+    font-size: 30px;
+    padding-left: 5%;
+    color: #d06b7b;
+    margin-top: -5%;
+}
+#box{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    height: 700px;
+    width: 550px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgb(173, 173, 173) 2px 2px 15px 2px;
+    transition: all 400ms;
+}
+.box1{
+    display: flex;
+    flex-direction: column;
+    height: 435px;
+    width: 550px;
+    background-image: url(../images/img.jpg);
+    background-size: 135%;
+    transition: all 400ms;
+    &:hover{
+        background-size: 145%;
+        opacity: 80%;
+    }
+    .date{
+        align-self: flex-end;
+        width: 80px;
+        border-radius: 40px;
+        height: 80px;
+        text-align: center;
+        font-size: 22px;
+        color: white;
+        background-color: #eb4a40;
+        margin-right: 5%;
+        margin-top: 5%;
+    }
+}
+.box2{
+    height: 265px;
+    width: 550px;
+    background-color: white;
+    font-weight: bold;
+    color: #a9a9a9;
+    transition: all 400ms;
+        &:hover{
+            color: black;
+            background-color: white;
+            transform: translatey(-5em);
+        }
+    .photo{
+        margin-top: -8%;
+        font-weight: bold;
+        font-size: 22px;
+        background-color: #eb4a40;
+        color: white;
+        text-align: center;
+        height: 50px;
+        line-height: 50px;
+        width: 140px;
+        /*margin-top: 70%;*/
+    }
+    i{
+        margin-top: 7%;
+        color: #9c9c9c;
+        /*margin-top: 5%;*/
+        padding-left: 5%;
+        font-size: 20px;
+    }
+}

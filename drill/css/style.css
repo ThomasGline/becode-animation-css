@@ -1,0 +1,53 @@
+body {
+  background-color: black;
+  text-decoration: none; }
+
+.bouton1 {
+  display: flex; }
+  .bouton1 a {
+    text-decoration: none;
+    width: 9em;
+    padding: 1% 1% 1% 1%;
+    margin-left: 45%;
+    margin-top: 10px;
+    border: 3px solid white;
+    color: white;
+    transform: scale(1);
+    transition: all 400ms; }
+    .bouton1 a:hover {
+      color: black;
+      background-color: white; }
+
+.bouton2 {
+  display: flex; }
+  .bouton2 a {
+    text-decoration: none;
+    color: white;
+    width: 9em;
+    margin-left: 45%;
+    margin-top: 10px;
+    padding: 1% 1% 1% 1%;
+    border: 3px solid white;
+    transform: scale(1);
+    transition: all 400ms; }
+    .bouton2 a:hover {
+      color: black;
+      transform: scale(1.25);
+      background-color: white; }
+
+.bouton3 {
+  display: flex; }
+  .bouton3 a {
+    text-decoration: none;
+    color: white;
+    width: 9em;
+    margin-left: 45%;
+    margin-top: 10px;
+    padding: 1% 1% 1% 1%;
+    border: 3px solid white;
+    transform: scale(1);
+    transition: all 400ms; }
+    .bouton3 a:hover {
+      color: black;
+      background-color: white;
+      transform: translateX(5em); }
